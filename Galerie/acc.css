@@ -1,0 +1,159 @@
+
+body {
+  
+   color: black;
+   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+   font-size: 17px;
+   font-weight: 300;
+   overflow-x: hidden;
+}
+div ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: bisque;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+font-size:30px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+li {
+    float: right ;
+    border-right:2px solid #bbb;
+    padding-left: 0px;
+}
+
+li :last-child {
+    border-left: none;
+   
+}
+
+li a {
+    display: block;
+    color:#000000;
+    text-align: centre;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+.yellow:hover:not(.active) {
+    background-color : #043513;
+    color:white;
+}
+.red:hover:not(.active) {
+    background-colo : blue;
+    color:white;
+}
+.contenu:target,
+
+.contenu:target
+{ width: 100%;}
+.contenu {
+ position: absolute;
+ padding-top: 20px;
+  overflow: hidden;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+ 
+  
+  
+}
+.contenu:target {
+
+  position:  relative;
+  height: auto;
+  padding: initial;
+  clip: initial;
+
+}
+.position-rech
+{  margin-left: 800px ; margin-top: 50px}
+.position-log{  margin-left: 800px ; margin-top: 250px}
+.world
+{ 
+    background-image: url(art.jpg);
+    background-repeat: no-repeat;
+   
+   
+  }
+  
+  #searchthis #search {
+    background-color:bisque;
+    opacity: 0.8;
+    filter: alpha(opacity=60);   /* Couleur de fond */
+    border-style: solid;   /* Style de la bordure  */
+    border-width: 1px;   /* Epaisseur de la bordure  */
+    border-color: #dddddd;   /* Couleur de la bordure  */
+    padding: 1%;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+    
+    box-sizing: border-box;   /* Important */
+    font-family: Lato;   /* Police du texte */
+    font-size: 24px;   /* Taille de la police du texte */
+    font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+    letter-spacing: 1px;   /* Espacement des caractères */
+    object-position: center;
+  }
+ .buttstyle {
+    background-color:#E8B960;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+     /* Couleur de fond */
+    border-style: solid;   /* Style de la bordure  */
+    border-width: 1px;   /* Epaisseur de la bordure  */
+    border-color: #E8B960;   /* Couleur de la bordure  */
+    padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+       /* Permet d'ajuster la largeur du bouton à 100% */
+    box-sizing: border-box;   /* Important */
+    font-family: PT sans;   /* Police du texte */
+    font-size: 25px;   /* Taille de la police du texte */
+    font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+    letter-spacing: 2px;
+    margin: 10px 50px 10px 10px; 
+}
+.txtarea { width:250px; height:30px;
+padding: 0% 5px; }
+.txt { font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+} 
+.floating-box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px ;
+    
+}
+div.gallery
+{ 
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    padding-top: 0%;
+    padding-right: 80px;
+    text-align: center;
+    
+}
+div.gallery img {
+    width: 25%;
+    height: auto;
+    border-width: 1px;
+    border-color: #000000;
+    padding-right: 50px;
+    
+  }
+  .about
+  {
+    position: static;;
+    bottom: 0;
+    background-color: #ff471a;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    height: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
